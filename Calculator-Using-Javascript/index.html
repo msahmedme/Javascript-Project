@@ -16,6 +16,11 @@
             <input type="text"" class="display" value="">
         </div>
         <div>
+            <input type="button" class="btn" value="DEL" onclick="del()" style="font-size:30px; width: 102px;">
+            <input type="button" class="btn" value="CLR" onclick="clearResult()" style="font-size:30px; width: 102px;">
+            <input type="button" class="btn" value="=" onclick="calculate()" style="font-size:30px; width: 102px;">
+        </div>
+        <div>
             <input type="button" class="btn" value="7" onclick="insertNumber(7)">
             <input type="button" class="btn" value="8" onclick="insertNumber(8)">
             <input type="button" class="btn" value="9" onclick="insertNumber(9)">
@@ -38,7 +43,7 @@
         <div>
             <input type="button" class="btn" value="0" onclick="insertNumber('0')">
             <input type="button" class="btn" value="." onclick="insertNumber('.')">
-            <input type="button" class="btn" value="%" onclick="insertNumber('%')">
+            <input type="button" class="btn" value="%" onclick="percentage('%')">
             <input type="button" class="btn" value="/" onclick="insertNumber('/')">
         </div>
    </div>
