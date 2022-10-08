@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.cal_head{
+    text-decoration: underline;
+}
+
+.area{
+    
+    text-align: center;
+    border: 10px grey solid; 
+    border-radius: 10px;
+    margin: 20px 465px 20px 465px;
+}
+.display{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: antiquewhite;
+    height: 70px;
+    width: 280px;
+    font-size: 40px;
+    padding: 10px;
+    text-align: right;
+}
+
+.btn{
+    
+    height: 50px;
+    width: 75px;
+    background-color: darkgray;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 2px 0px 2px 0px;
+    font-size: 40px;
+}
